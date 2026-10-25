@@ -2,7 +2,7 @@
 
 * **Platform:** PortSwigger Web Security Academy
 * **Difficulty:** Apprentice
-* **Status:** Solved (after confirmation)
+* **Status:** Solved 
 
 ## Objective
 
