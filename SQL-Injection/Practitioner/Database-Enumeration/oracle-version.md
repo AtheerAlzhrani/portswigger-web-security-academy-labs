@@ -46,9 +46,11 @@ An attacker could exploit SQL injection to retrieve database metadata, identify 
 
 ### Lab Completion
 
+<img width="1710" height="287" alt="image" src="https://github.com/user-attachments/assets/25ca7e8b-6678-489e-8a63-d3f155c3b26c" />
 
 
-### SQL Injection Testing
+### Retrieved Database Version
+<img width="732" height="462" alt="image" src="https://github.com/user-attachments/assets/4f89667b-161f-40df-bf78-5dd6d36a1dc4" />
 
 
 
