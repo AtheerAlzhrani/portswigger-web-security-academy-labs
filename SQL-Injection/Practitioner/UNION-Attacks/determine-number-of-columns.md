@@ -31,4 +31,8 @@ An attacker may use the discovered column count to construct UNION queries that 
 - Handle database errors without exposing sensitive implementation details.
 
 ## Evidence
-<!-- Add a screenshot of the successful lab completion here. -->
+<img width="1487" height="716" alt="image" src="https://github.com/user-attachments/assets/858672a4-bbe2-480e-8232-ae906bc3d7c8" />
+<img width="1735" height="262" alt="image" src="https://github.com/user-attachments/assets/406911e5-faac-482a-8f85-bc5dfaa96629" />
+
+
+
