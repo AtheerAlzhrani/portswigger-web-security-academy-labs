@@ -32,4 +32,7 @@ An attacker could exploit a UNION-based SQL injection vulnerability to retrieve 
 - Handle database errors safely without exposing sensitive information.
 
 ## Evidence
-<!-- Add a screenshot showing the successful lab completion here. -->
+
+<img width="1475" height="557" alt="image" src="https://github.com/user-attachments/assets/823301e7-67f4-4421-8ef2-ed9b5b902d8e" />
+<img width="1495" height="241" alt="image" src="https://github.com/user-attachments/assets/f5c8f7ac-2a30-4963-b520-a9672625660a" />
+
