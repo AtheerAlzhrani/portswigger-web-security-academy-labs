@@ -20,7 +20,7 @@ Determine the number of columns returned by the original SQL query.
 5. Examined the response to determine whether the query was accepted.
 
 ## Result
-The payload tested a UNION query with three columns. If the query was accepted without an SQL error, this indicated that the original query returned three columns.
+The payload tested a UNION query with three columns. The injected query was accepted, and its results were displayed in the application's response.
 
 ## Impact
 An attacker may use the discovered column count to construct UNION queries that retrieve data from other database tables.
