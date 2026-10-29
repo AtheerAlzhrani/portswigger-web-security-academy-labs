@@ -17,7 +17,7 @@ Retrieve hidden products by exploiting SQL injection in the product category fil
 ## Explanation
 
 The payload adds an always-true condition and comments out the remaining SQL query, potentially bypassing the category and product-release restrictions.
-
+git log --oneline -5
 ## Impact
 
 The application may disclose products that should not be visible.
