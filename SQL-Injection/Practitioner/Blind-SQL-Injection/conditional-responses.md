@@ -71,6 +71,6 @@ An attacker could exploit conditional responses to extract sensitive database in
 
 ## Evidence
 
-<img width="916" height="697" alt="Screenshot 2026-10-30 183303" src="https://github.com/user-attachments/assets/3fd1ce0d-1ec8-46c1-996e-2c34e68ed120" />
+<img width="1212" height="880" alt="image" src="https://github.com/user-attachments/assets/9dd8cb1c-40e0-4007-8008-b066c87e2d92" />
 <img width="1735" height="332" alt="image" src="https://github.com/user-attachments/assets/e47eda54-bf1d-448e-8a16-1d60234525cd" />
 
