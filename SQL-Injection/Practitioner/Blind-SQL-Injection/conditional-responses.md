@@ -1,13 +1,9 @@
 # Blind SQL Injection – Conditional Responses
 
 **Platform:** PortSwigger Web Security Academy
-
 **Category:** SQL Injection
-
 **Difficulty:** Practitioner
-
 **Status:** Solved
-
 **Tool:** Burp Suite
 
 ## Lab Description
