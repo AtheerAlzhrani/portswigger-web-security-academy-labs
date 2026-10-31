@@ -71,6 +71,11 @@ An attacker could exploit SQL injection and retrieve sensitive database informat
 * Apply least-privilege database permissions.
 
 ## Evidence
+<img width="1830" height="680" alt="Screenshot 2026-11-01 003127" src="https://github.com/user-attachments/assets/00a93815-c5c5-41a5-b742-52c5ef2a02df" />
 
-<!-- Add Burp Suite screenshots showing the CAST() payloads and database error responses. -->
+<img width="1830" height="680" alt="image" src="https://github.com/user-attachments/assets/866ca492-dcc8-44da-b3a2-c9d779a7f47c" />
+
+<img width="1500" height="747" alt="image" src="https://github.com/user-attachments/assets/a1425d18-15f0-4e4c-806c-6b0224c859d3" />
+
+
 
