@@ -4,7 +4,7 @@
 * **Difficulty:** Practitioner
 * **Category:** Blind SQL Injection
 * **Status:** Solved
- ***Database:** PostgreSQL
+* ***Database:** PostgreSQL
 * **Tool:** Burp Suite
 
 ## Objective
