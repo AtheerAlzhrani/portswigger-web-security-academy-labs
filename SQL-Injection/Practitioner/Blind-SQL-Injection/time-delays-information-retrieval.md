@@ -1,11 +1,11 @@
 # Time-Based Blind SQL Injection – Information Retrieval
 
-**Platform:** PortSwigger Web Security Academy
-**Difficulty:** Practitioner
-**Category:** Blind SQL Injection
-**Status:** Solved
-**Database:** PostgreSQL
-**Tool:** Burp Suite
+* **Platform:** PortSwigger Web Security Academy
+* **Difficulty:** Practitioner
+* **Category:** Blind SQL Injection
+* **Status:** Solved
+ ***Database:** PostgreSQL
+* **Tool:** Burp Suite
 
 ## Objective
 
@@ -98,8 +98,13 @@ An attacker could retrieve sensitive database information, including usernames a
 * Apply the principle of least privilege to database accounts.
 
 ## Evidence
+<img width="1116" height="427" alt="Screenshot 2026-11-01 151331mm" src="https://github.com/user-attachments/assets/17122286-5547-4fc3-9079-1698e641a7b0" />
 
-*Screenshot showing the modified TrackingId cookie, conditional time delays, and successful administrator login.*
+<img width="1462" height="783" alt="Screenshot 2026-11-01 151547" src="https://github.com/user-attachments/assets/e51ac800-4211-4932-9ed2-889afcefcb15" />
+
+<img width="1462" height="782" alt="image" src="https://github.com/user-attachments/assets/c81233a9-92f3-4f69-8b0b-817e9e419f81" />
+<img width="1597" height="721" alt="image" src="https://github.com/user-attachments/assets/a0d25084-5c13-47f7-8a49-fc86c84b3e0a" />
+
 
 ## Result
 
