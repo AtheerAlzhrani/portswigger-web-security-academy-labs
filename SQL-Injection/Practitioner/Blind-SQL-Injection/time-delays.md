@@ -1,11 +1,11 @@
 # Time-Based Blind SQL Injection
 
-**Platform:** PortSwigger Web Security Academy
-**Difficulty:** Practitioner
-**Category:** Blind SQL Injection
-**Status:** Solved
-**Database:** PostgreSQL
-**Tool:** Burp Suite
+* **Platform:** PortSwigger Web Security Academy
+* **Difficulty:** Practitioner
+* **Category:** Blind SQL Injection
+* **Status:** Solved
+* **Database:** PostgreSQL
+* **Tool:** Burp Suite
 
 ## Objective
 
@@ -41,8 +41,9 @@ An attacker could exploit this vulnerability to infer information from the datab
 * Follow the principle of least privilege for database accounts.
 
 ## Evidence
+<img width="895" height="815" alt="image" src="https://github.com/user-attachments/assets/deaf5a14-6c40-41f2-8324-7f5d2aad5d2b" />
+<img width="1492" height="251" alt="image" src="https://github.com/user-attachments/assets/5da1cd52-a5f1-45ab-9942-7c432bc15160" />
 
-*Screenshot showing the modified TrackingId cookie and the approximately 10-second response delay.*
 
 ## Result
 
