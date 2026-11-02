@@ -1,10 +1,10 @@
 # Password Reset Broken Logic
 
-**Platform:** PortSwigger Web Security Academy
-**Difficulty:** Apprentice
-**Category:** Authentication – Password Reset
-**Status:** Solved
-**Tool:** Burp Suite (Proxy, HTTP History, Repeater)
+* **Platform:** PortSwigger Web Security Academy
+* **Difficulty:** Apprentice
+* **Category:** Authentication – Password Reset
+* **Status:** Solved
+* **Tool:** Burp Suite (Proxy, HTTP History, Repeater)
 
 ## Objective
 
@@ -70,7 +70,8 @@ An attacker could exploit this weakness to:
 
 ## Evidence
 
-*Screenshot showing the modified password reset request in Burp Repeater and successful access to Carlos's account.*
+<img width="1582" height="740" alt="image" src="https://github.com/user-attachments/assets/bc129b80-1a16-4c08-93b3-5ece5afbb13d" />
+
 
 ## Result
 
