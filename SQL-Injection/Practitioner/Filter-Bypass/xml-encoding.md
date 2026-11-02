@@ -1,10 +1,10 @@
 # SQL Injection – Filter Bypass via XML Encoding
 
-**Platform:** PortSwigger Web Security Academy
-**Difficulty:** Practitioner
-**Category:** SQL Injection – Filter Bypass
-**Status:** Solved
-**Tool:** Burp Suite, Hackvertor
+* **Platform:** PortSwigger Web Security Academy
+* **Difficulty:** Practitioner
+* **Category:** SQL Injection – Filter Bypass
+* **Status:** Solved
+* **Tool:** Burp Suite, Hackvertor
 
 ## Objective
 
@@ -48,8 +48,9 @@ An attacker could bypass WAF filtering and retrieve sensitive information from d
 * Follow the principle of least privilege for database accounts.
 
 ## Evidence
+<img width="1152" height="662" alt="image" src="https://github.com/user-attachments/assets/b0cc689c-7d08-461a-bd31-0bc291deb68c" />
+<img width="1605" height="692" alt="image" src="https://github.com/user-attachments/assets/a0c57988-a8ee-4281-93d4-90577ae9d291" />
 
-*Screenshot showing the XML-encoded payload in Burp Suite and successful retrieval of administrator credentials.*
 
 ## Result
 
