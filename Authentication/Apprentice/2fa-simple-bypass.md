@@ -1,10 +1,10 @@
 # 2FA Simple Bypass
 
-**Platform:** PortSwigger Web Security Academy
-**Difficulty:** Apprentice
-**Category:** Authentication – Multi-Factor Authentication
-**Status:** Solved
-**Tool:** Burp Suite, Web Browser
+* **Platform:** PortSwigger Web Security Academy
+* **Difficulty:** Apprentice
+* **Category:** Authentication – Multi-Factor Authentication
+* **Status:** Solved
+* **Tool:** Burp Suite, Web Browser
 
 ## Objective
 
@@ -56,7 +56,8 @@ This defeats the additional security provided by 2FA.
 
 ## Evidence
 
-*Screenshot showing the 2FA verification page, direct navigation to `/my-account`, and successful access to Carlos's account.*
+<img width="1506" height="761" alt="image" src="https://github.com/user-attachments/assets/f2de9266-11de-49d8-8f66-ee5c763f6f4b" />
+
 
 ## Result
 
