@@ -47,5 +47,9 @@ The application reveals information about valid usernames through differences in
 * Monitor and detect repeated failed login attempts.
 
 ## Evidence
+<img width="756" height="485" alt="image" src="https://github.com/user-attachments/assets/334dc1df-3372-40ab-b3ae-b6b3918f8ba8" />
+<img width="1421" height="632" alt="image" src="https://github.com/user-attachments/assets/689c2da2-6069-4301-ad72-3ec7f6b0d42b" />
+ <img width="1512" height="812" alt="image" src="https://github.com/user-attachments/assets/d3a49267-1eb6-48ef-95e4-7cbc26753488" />
 
-*Add a screenshot showing successful lab completion.*
+
+
