@@ -62,6 +62,10 @@ Successful exploitation could allow an attacker to:
 
 <img width="1687" height="497" alt="image" src="https://github.com/user-attachments/assets/91117ae7-5abd-425a-877b-17f6cdbaa2cd" />
 
+<img width="757" height="311" alt="image" src="https://github.com/user-attachments/assets/7fbaad2a-4a07-4170-9c0f-01958974892e" />
+<img width="985" height="277" alt="image" src="https://github.com/user-attachments/assets/7f0a4e9f-0559-484e-8436-a158036c565b" />
+
 <img width="1140" height="502" alt="image" src="https://github.com/user-attachments/assets/14358d7d-4d67-4e70-ab81-aff76211f351" />
+
 
 
