@@ -58,14 +58,10 @@ Successful exploitation could allow an attacker to:
 
 ## Evidence
 
-**Screenshot 1:** Comment form containing the XSS payload.
+<img width="1010" height="792" alt="image" src="https://github.com/user-attachments/assets/8d2e1609-d181-4709-bab5-1cc0a19ae689" />
 
-`[Insert screenshot here]`
+<img width="1687" height="497" alt="image" src="https://github.com/user-attachments/assets/91117ae7-5abd-425a-877b-17f6cdbaa2cd" />
 
-**Screenshot 2:** Submitted comment displayed on the blog post.
+<img width="1140" height="502" alt="image" src="https://github.com/user-attachments/assets/14358d7d-4d67-4e70-ab81-aff76211f351" />
 
-`[Insert screenshot here]`
 
-**Screenshot 3:** JavaScript alert successfully executed after revisiting the blog post.
-
-`[Insert screenshot here]`
