@@ -50,14 +50,10 @@ Successful exploitation could allow:
 
 ## Evidence
 
-**Screenshot 1:** Search field containing the XSS payload.
 
-`[Insert screenshot here]`
+<img width="1522" height="612" alt="image" src="https://github.com/user-attachments/assets/e926c2aa-faff-45ad-a7ca-7398b7439012" />
 
-**Screenshot 2:** JavaScript alert successfully executed.
+<img width="1572" height="642" alt="image" src="https://github.com/user-attachments/assets/efc9ab22-3d57-4344-98e4-b31d03345cb0" />
+<img width="1001" height="372" alt="image" src="https://github.com/user-attachments/assets/5a597e67-4884-4ee4-9e5c-c27d7478d45c" />
+<img width="1691" height="682" alt="image" src="https://github.com/user-attachments/assets/69e1ed86-fba2-41a2-8e07-951d7b80f095" />
 
-`[Insert screenshot here]`
-
-**Screenshot 3:** HTTP response showing the reflected payload.
-
-`[Insert screenshot here]`
