@@ -56,12 +56,12 @@ Depending on the application, this could lead to:
 
 ## Evidence
 
-**Screenshot 1 – Search input:**  
-`[Insert screenshot showing the initial search input]`
+<img width="1391" height="1020" alt="image" src="https://github.com/user-attachments/assets/e213ff06-7e03-4a0f-a124-5df34f864462" />
 
-**Screenshot 2 – HTML inspection:**  
-`[Insert screenshot showing the input inside the img src attribute]`
+<img width="1600" height="592" alt="image" src="https://github.com/user-attachments/assets/5534e726-bbef-47ea-871e-7cbbb039ab26" />
 
-**Screenshot 3 – Successful XSS execution:**  
-`[Insert screenshot showing the alert(1) popup]`
+
+
+<img width="807" height="310" alt="image" src="https://github.com/user-attachments/assets/32ad9be6-09ca-46a8-8c97-9afa4d9b179a" />
+
 
