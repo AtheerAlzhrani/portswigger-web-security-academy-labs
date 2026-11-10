@@ -4,7 +4,7 @@
 **Difficulty:** Apprentice  
 **Category:** Reflected Cross-Site Scripting (XSS)  
 **Status:** Solved  
-**Tool:** Firefox, Burp Suite
+**Tool:** Firefox
 
 ## Objective
 
