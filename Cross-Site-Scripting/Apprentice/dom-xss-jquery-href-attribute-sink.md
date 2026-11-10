@@ -4,7 +4,7 @@
 **Difficulty:** Apprentice  
 **Category:** Cross-Site Scripting (DOM-based XSS)  
 **Status:** Solved  
-**Tool(s):** Browser Developer Tools
+**Tool(s):** Firefox
 
 ## Objective
 
@@ -64,11 +64,8 @@ Note: Cookies protected with the `HttpOnly` flag cannot be accessed through `doc
 
 ## Evidence
 
-**Screenshot 1 – Modified returnPath:**  
-`[Insert screenshot showing the modified returnPath parameter]`
+<img width="1286" height="1042" alt="image" src="https://github.com/user-attachments/assets/091bd06f-b0d2-4a04-afa1-01593c8d6933" />
 
-**Screenshot 2 – HTML inspection:**  
-`[Insert screenshot showing the injected value inside the Back link href attribute]`
+<img width="1362" height="772" alt="image" src="https://github.com/user-attachments/assets/aecfd23f-68df-4ede-ae78-2ef7b19b6224" />
 
-**Screenshot 3 – Successful execution:**  
-`[Insert screenshot showing the alert displaying document.cookie]`
+
