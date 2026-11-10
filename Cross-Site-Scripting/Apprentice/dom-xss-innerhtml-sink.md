@@ -58,8 +58,8 @@ Potential consequences include:
 
 ## Evidence
 
-**Screenshot 1 – Search functionality:**  
-`[Insert screenshot showing the search input and payload]`
+<img width="1180" height="437" alt="image" src="https://github.com/user-attachments/assets/3cee0ac1-2ee8-46a2-8064-0b6ba1f250e2" />
 
-**Screenshot 2 – Successful XSS execution:**  
-`[Insert screenshot showing the alert(1) popup]`
+<img width="1267" height="857" alt="image" src="https://github.com/user-attachments/assets/e1308889-c07b-4445-9ca2-6256fece6c6d" />
+
+
