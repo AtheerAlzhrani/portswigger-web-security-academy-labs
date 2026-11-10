@@ -4,7 +4,7 @@
 **Difficulty:** Apprentice  
 **Category:** Cross-Site Scripting (DOM-based XSS)  
 **Status:** Solved  
-**Tool(s):** Burp Suite, Browser Developer Tools
+**Tool(s):** Firefox
 
 ## Objective
 
