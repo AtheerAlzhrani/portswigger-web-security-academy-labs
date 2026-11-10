@@ -8,7 +8,7 @@
 
 **Status:** Solved
 
-**Tools:** Firefox, Burp Suite
+**Tools:** Firefox
 
 ## Objective
 
