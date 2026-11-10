@@ -4,7 +4,7 @@
 **Difficulty:** Apprentice  
 **Category:** Cross-Site Scripting (DOM-based XSS)  
 **Status:** Solved  
-**Tool(s):** Browser Developer Tools
+**Tool(s):** Firefox
 
 ## Objective
 
