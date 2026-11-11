@@ -4,7 +4,7 @@
 **Difficulty:** Practitioner  
 **Category:** Reflected DOM-Based Cross-Site Scripting (XSS)  
 **Status:** Solved  
-**Tools:** Burp Suite, Burp Proxy, Burp Repeater, Browser Developer Tools
+**Tools:** Burp Suite, BFirefox
 
 ## Objective
 
@@ -62,12 +62,14 @@ An attacker could potentially:
 
 ## Evidence
 
-- [ ] Screenshot showing the reflected search term in the JSON response.
-- [ ] Screenshot of the vulnerable `eval()` function in `searchResults.js`.
-- [ ] Screenshot showing the injected payload.
-- [ ] Screenshot of the successful JavaScript alert.
+
+<img width="1341" height="732" alt="image" src="https://github.com/user-attachments/assets/ca70c6ff-0406-4272-bdaa-4795b19f5594" />
+
+<img width="1116" height="245" alt="image" src="https://github.com/user-attachments/assets/d6773677-51f8-4c6d-b7ed-b47c7307147c" />
+
+
 
 ## Lab Reference
 
-PortSwigger Web Security Academy – Reflected DOM XSS.
+[PortSwigger Web Security Academy – Reflected DOM XSS.](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-reflected)
 
