@@ -61,8 +61,5 @@ An attacker could potentially:
 <img width="1587" height="272" alt="image" src="https://github.com/user-attachments/assets/3f75720f-4f3b-4347-b4f8-94f4c9fedcf7" />
 
 
-
-
 ## Lab Reference
-
-PortSwigger Web Security Academy – Stored XSS into anchor href attribute with double quotes HTML-encoded.https://portswigger.net/web-security/cross-site-scripting/contexts/lab-href-attribute-double-quotes-html-encodedhttps://portswigger.net/web-security/cross-site-scripting/contexts/lab-href-attribute-double-quotes-html-encoded
+https://portswigger.net/web-security/cross-site-scripting/contexts/lab-href-attribute-double-quotes-html-encodedhttps://portswigger.net/web-security/cross-site-scripting/contexts/lab-href-attribute-double-quotes-html-encoded
