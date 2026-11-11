@@ -4,7 +4,7 @@
 **Difficulty:** Practitioner  
 **Category:** Reflected DOM-Based Cross-Site Scripting (XSS)  
 **Status:** Solved  
-**Tools:** Burp Suite, BFirefox
+**Tools:** Burp Suite, Firefox
 
 ## Objective
 
@@ -64,6 +64,7 @@ An attacker could potentially:
 
 
 <img width="1341" height="732" alt="image" src="https://github.com/user-attachments/assets/ca70c6ff-0406-4272-bdaa-4795b19f5594" />
+<img width="507" height="210" alt="image" src="https://github.com/user-attachments/assets/c79ca8dc-336e-46e8-b6bd-ea62b9e9a34e" />
 
 <img width="1116" height="245" alt="image" src="https://github.com/user-attachments/assets/d6773677-51f8-4c6d-b7ed-b47c7307147c" />
 
