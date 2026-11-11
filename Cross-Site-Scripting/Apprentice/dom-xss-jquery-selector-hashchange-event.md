@@ -4,7 +4,7 @@
 **Difficulty:** Apprentice  
 **Category:** Cross-Site Scripting (DOM-based XSS)  
 **Status:** Solved  
-**Tools:** Burp Suite, Browser Developer Tools, Exploit Server
+**Tools:** Firefox
 
 ## Objective
 
@@ -72,15 +72,8 @@ Potential consequences include:
 
 ## Evidence
 
-**Screenshot 1 – Vulnerable JavaScript:**  
-`[Insert screenshot showing the hashchange event handler and jQuery selector]`
+<img width="1012" height="172" alt="image" src="https://github.com/user-attachments/assets/9a8b2535-7e3a-4e41-8c2c-79f62284505c" />
+<img width="1572" height="981" alt="image" src="https://github.com/user-attachments/assets/3c1962da-cb81-4383-9b00-63dce78b745a" />
 
-**Screenshot 2 – Exploit Server:**  
-`[Insert screenshot showing the iframe payload in the Body section]`
-
-**Screenshot 3 – Exploit verification:**  
-`[Insert screenshot showing the print dialog after selecting View exploit]`
-
-**Screenshot 4 – Lab solved:**  
-`[Insert screenshot showing the successful lab completion]`
-
+<img width="1632" height="1015" alt="image" src="https://github.com/user-attachments/assets/abc70171-9295-4683-98ad-3a317befedf4" />
+<img width="1541" height="277" alt="image" src="https://github.com/user-attachments/assets/e9cee8a2-c710-4594-a6b7-f3bea25ef55d" />
