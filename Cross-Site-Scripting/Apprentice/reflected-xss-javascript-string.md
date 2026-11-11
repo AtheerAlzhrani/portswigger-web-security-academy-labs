@@ -4,7 +4,7 @@
 **Difficulty:** Apprentice  
 **Category:** Reflected Cross-Site Scripting (XSS)  
 **Status:** Solved  
-**Tools:** Burp Suite, Burp Repeater, Web Browser
+**Tools:** Burp Suite, Firefox
 
 ## Objective
 
@@ -53,11 +53,10 @@ An attacker could potentially:
 - Implement a restrictive Content Security Policy (CSP).
 
 ## Evidence
-
-- [ ] Screenshot showing the reflected input inside the JavaScript string.
-- [ ] Screenshot of the injected payload in Burp Repeater.
-- [ ] Screenshot of the successful JavaScript alert.
+<img width="710" height="295" alt="image" src="https://github.com/user-attachments/assets/7b5bc629-4079-4720-a97f-325e87f44799" />
+<img width="1637" height="437" alt="image" src="https://github.com/user-attachments/assets/8fb6b5ff-fa8e-4cd2-96f3-f56172d6d84a" />
+<img width="1362" height="87" alt="image" src="https://github.com/user-attachments/assets/499b8c05-041a-499f-b218-883fc87c269f" />
 
 ## Lab Reference
 
-PortSwigger Web Security Academy – Reflected XSS into a JavaScript string with single quote and backslash escaped.
+[PortSwigger Web Security Academy – Reflected XSS into a JavaScript string with single quote and backslash escaped.](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-string-angle-brackets-html-encoded)
