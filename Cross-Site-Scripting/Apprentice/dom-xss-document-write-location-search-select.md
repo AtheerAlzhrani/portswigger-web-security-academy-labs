@@ -4,7 +4,7 @@
 **Difficulty:** Apprentice  
 **Category:** DOM-Based Cross-Site Scripting (XSS)  
 **Status:** Solved  
-**Tools:** Burp Suite, Browser Developer Tools
+**Tools:** Burp Suite, Firefox
 
 ## Objective
 
@@ -61,11 +61,17 @@ An attacker could potentially:
 
 ## Evidence
 
-- [ ] Screenshot showing the random `storeId` value in the dropdown.
-- [ ] Screenshot of the vulnerable JavaScript code.
-- [ ] Screenshot of the injected payload in the URL.
-- [ ] Screenshot of the successful JavaScript alert.
+<img width="1292" height="622" alt="image" src="https://github.com/user-attachments/assets/bc624ffd-f6d9-43f6-93b8-3461ab7172aa" />
+<img width="482" height="322" alt="image" src="https://github.com/user-attachments/assets/1d168bc9-83cb-40a6-86e0-7c68634633be" />
+<img width="1535" height="106" alt="image" src="https://github.com/user-attachments/assets/6df7fd82-b73c-4bb4-b5e8-9911ddbfd26a" />
+<img width="515" height="166" alt="image" src="https://github.com/user-attachments/assets/a4cf668d-a229-4b4a-881a-6f603c200c97" />
+<img width="1602" height="262" alt="image" src="https://github.com/user-attachments/assets/a7be8540-ff5f-4ef1-9638-21f146985c66" />
+
+
+
+
+
+
 
 ## Lab Reference
-
-PortSwigger Web Security Academy – DOM XSS in `document.write` sink using source `location.search` inside a select element.
+https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink-inside-select-element/
