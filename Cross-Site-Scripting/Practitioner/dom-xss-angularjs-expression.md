@@ -4,7 +4,7 @@
 **Difficulty:** Practitioner  
 **Category:** DOM-Based Cross-Site Scripting (XSS)  
 **Status:** Solved  
-**Tools:** Web Browser, Browser Developer Tools
+**Tool:** Firefox
 
 ## Objective
 
@@ -55,11 +55,14 @@ An attacker could potentially:
 - Implement a restrictive Content Security Policy (CSP) as an additional security layer.
 
 ## Evidence
+<img width="1205" height="600" alt="image" src="https://github.com/user-attachments/assets/0aba7d3f-caef-4494-849d-644a58982776" />
+<img width="1157" height="317" alt="image" src="https://github.com/user-attachments/assets/94e72886-1ecc-4b45-b4aa-9adcf4dbb2f3" />
 
-- [ ] Screenshot showing the reflected input inside the `ng-app` directive.
-- [ ] Screenshot showing the AngularJS payload in the search box.
-- [ ] Screenshot of the successful JavaScript alert.
+<img width="586" height="330" alt="image" src="https://github.com/user-attachments/assets/1b8b8c6f-0666-4398-91c5-fb09fa86abb8" />
+<img width="1552" height="272" alt="image" src="https://github.com/user-attachments/assets/51e04b9e-4891-4169-ad82-4495bc90ccf4" />
+
+
 
 ## Lab Reference
 
-PortSwigger Web Security Academy – DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded.
+[PortSwigger Web Security Academy – DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded.](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-angularjs-expression)
