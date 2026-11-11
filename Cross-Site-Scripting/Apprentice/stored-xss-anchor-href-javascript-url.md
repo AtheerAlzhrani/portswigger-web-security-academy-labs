@@ -4,7 +4,7 @@
 **Difficulty:** Apprentice  
 **Category:** Stored Cross-Site Scripting (XSS)  
 **Status:** Solved  
-**Tools:** Burp Suite, Burp Repeater, Web Browser
+**Tools:** Burp Suite, Firefox
 
 ## Objective
 
@@ -56,15 +56,12 @@ An attacker could potentially:
 - Implement Content Security Policy (CSP) as an additional security layer.
 
 ## Evidence
+<img width="741" height="512" alt="image" src="https://github.com/user-attachments/assets/f7a3eacc-4dcc-4a7b-9a92-e116de072cbc" />
+<img width="647" height="166" alt="image" src="https://github.com/user-attachments/assets/69b913e0-a827-449d-ac4d-67e0fd341e79" />
+<img width="1587" height="272" alt="image" src="https://github.com/user-attachments/assets/3f75720f-4f3b-4347-b4f8-94f4c9fedcf7" />
 
 
 
-
-
-- [ ] Screenshot of the Website input in the comment form.
-- [ ] Screenshot showing the reflected URL inside the `href` attribute.
-- [ ] Screenshot of the injected JavaScript URL.
-- [ ] Screenshot of the successful JavaScript alert.
 
 ## Lab Reference
 
