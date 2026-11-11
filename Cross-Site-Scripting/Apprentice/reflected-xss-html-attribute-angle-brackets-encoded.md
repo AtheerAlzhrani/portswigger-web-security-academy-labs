@@ -4,7 +4,7 @@
 **Difficulty:** Apprentice  
 **Category:** Reflected Cross-Site Scripting (XSS)  
 **Status:** Solved  
-**Tools:** Burp Suite, Burp Repeater, Web Browser
+**Tools:** Burp Suite, Firefox
 
 ## Objective
 
@@ -55,10 +55,10 @@ Depending on the application, this could lead to:
 
 ## Evidence
 
-- [ ] Screenshot of the reflected input inside the HTML attribute.
-- [ ] Screenshot of the injected payload in Burp Repeater.
-- [ ] Screenshot of the JavaScript alert successfully triggered.
+<img width="411" height="97" alt="image" src="https://github.com/user-attachments/assets/ccdfeca4-d8a1-4e63-a340-49dfce30c133" />
+
+<img width="1357" height="387" alt="image" src="https://github.com/user-attachments/assets/a85b69a4-725e-41a0-9fb1-415597f43dae" />
 
 ## Lab Reference
 
-PortSwigger Web Security Academy – Reflected XSS into HTML attribute with angle brackets HTML-encoded.
+[PortSwigger Web Security Academy – Reflected XSS into HTML attribute with angle brackets HTML-encoded.](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-attribute-angle-brackets-html-encoded)
