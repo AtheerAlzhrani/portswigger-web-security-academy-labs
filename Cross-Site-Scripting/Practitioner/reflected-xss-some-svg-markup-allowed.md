@@ -122,11 +122,12 @@ Potential consequences include:
 
 ## Evidence
 
-- [ ] Screenshot of the initial blocked XSS payload.
-- [ ] Screenshot of Burp Intruder tag enumeration results.
-- [ ] Screenshot of Burp Intruder event-handler enumeration results.
-- [ ] Screenshot of successful JavaScript execution.
-- [ ] Screenshot of the solved lab confirmation.
+<img width="1297" height="850" alt="Screenshot 2026-11-12 085427" src="https://github.com/user-attachments/assets/902cfb91-5411-4cb4-a048-79e7ca2f0a1d" />
+<img width="1297" height="850" alt="Screenshot 2026-11-12 085427-00" src="https://github.com/user-attachments/assets/d63eb796-293b-48a4-8b1a-ef0cd1c9f77c" />
+<img width="1221" height="642" alt="image" src="https://github.com/user-attachments/assets/cfcb2ac9-f86e-4f42-9d72-e45d68c5a96e" />
+<img width="1512" height="280" alt="image" src="https://github.com/user-attachments/assets/4c84321a-462f-4f54-9a53-b052b772ea59" />
+
+
 
 ## Key Learning
 
@@ -136,4 +137,4 @@ An HTTP `200` response alone does not prove XSS. The final payload must be teste
 
 ## Lab Reference
 
-[PortSwigger – Reflected XSS with Some SVG Markup Allowed](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-some-svg-markup-allowed)
+https://portswigger.net/web-security/cross-site-scripting/contexts/lab-some-svg-markup-allowed
