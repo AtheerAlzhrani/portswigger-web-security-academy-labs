@@ -7,7 +7,7 @@
 - **Category:** Cross-Site Scripting (XSS)
 - **Status:** Solved
 - **Vulnerability Type:** Reflected Cross-Site Scripting
-- **Tools:** Burp Suite, Burp Intruder, Browser
+- **Tool:** Firefox
 
 ## Objective
 
