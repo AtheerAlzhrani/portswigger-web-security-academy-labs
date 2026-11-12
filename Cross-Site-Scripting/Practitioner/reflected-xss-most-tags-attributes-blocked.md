@@ -4,7 +4,7 @@
 **Difficulty:** Practitioner  
 **Category:** Reflected Cross-Site Scripting (XSS)  
 **Status:** Solved  
-**Tools:** Burp Suite, Burp Intruder, Burp Browser, XSS Cheat Sheet, Exploit Server
+**Tools:** Firefox
 
 ## Objective
 
@@ -109,11 +109,12 @@ An attacker could potentially:
 
 ## Evidence
 
-- [ ] Screenshot of the initial blocked XSS payload.
-- [ ] Screenshot of Burp Intruder tag discovery results.
-- [ ] Screenshot of Burp Intruder event-handler discovery results.
-- [ ] Screenshot of the final exploit server payload.
-- [ ] Screenshot confirming successful exploitation.
+<img width="936" height="690" alt="image" src="https://github.com/user-attachments/assets/d8dc108e-4910-438f-a638-854facb6ad1c" />
+<img width="1331" height="557" alt="image" src="https://github.com/user-attachments/assets/35fcf666-61d0-42b9-94b3-3eed72eb69f6" />
+<img width="1540" height="997" alt="image" src="https://github.com/user-attachments/assets/689f20f1-cf1b-42c6-acb6-85f12caec32a" />
+<img width="1547" height="272" alt="image" src="https://github.com/user-attachments/assets/e42303d3-b8f9-4f4a-bfcf-863e46e09f71" />
+
+
 
 ## Lab Reference
 
