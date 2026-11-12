@@ -7,7 +7,7 @@
 - **Category:** Cross-Site Scripting (XSS)
 - **Status:** Solved
 - **Vulnerability Type:** Reflected Cross-Site Scripting
-- **Tools:** Burp Suite, Browser, PortSwigger Exploit Server
+- **Tool:** Firefox
 
 ## Objective
 
@@ -24,7 +24,6 @@ The objective is to execute JavaScript automatically and trigger an alert displa
 5. Used `tabindex=1` to make the custom element focusable.
 6. Used the URL fragment `#x` to automatically focus the injected element when the page loads.
 7. Stored the exploit and delivered it to the victim.
-8. Confirmed successful JavaScript execution through the alert dialog.
 
 ## Payload
 
@@ -75,9 +74,10 @@ Depending on the application context, this could lead to:
 
 ## Evidence
 
-- [ ] Screenshot of the injected custom HTML element.
-- [ ] Screenshot of the successful JavaScript alert.
-- [ ] Screenshot of the solved lab confirmation.
+<img width="1112" height="782" alt="image" src="https://github.com/user-attachments/assets/830bccd3-986c-4ca6-96ab-78ae1f04f796" />
+<img width="1552" height="275" alt="image" src="https://github.com/user-attachments/assets/4b326d9e-8e6d-4da9-bb5e-c66d99421340" />
+
+
 
 ## Key Learning
 
