@@ -7,7 +7,7 @@
 - **Category:** Cross-Site Scripting (XSS)
 - **Status:** Solved
 - **Vulnerability Type:** Reflected Cross-Site Scripting
-- **Tools:** Browser (Google Chrome), Burp Suite
+- **Tools:** Firefox, Burp Suite
 
 ## Objective
 
@@ -97,10 +97,9 @@ Potential consequences include:
 
 ## Evidence
 
-- [ ] Screenshot showing the crafted URL.
-- [ ] Screenshot showing the injected canonical link attributes.
-- [ ] Screenshot of the JavaScript alert.
-- [ ] Screenshot of the solved lab confirmation.
+<img width="1600" height="665" alt="image" src="https://github.com/user-attachments/assets/fe0c2b5a-0ed3-47ea-8bc5-aa85cced0665" />
+<img width="1117" height="161" alt="image" src="https://github.com/user-attachments/assets/3b89bda4-2327-4fd1-8ada-4423c1d8d376" />
+
 
 ## Key Learning
 
@@ -112,4 +111,4 @@ This lab demonstrates the importance of understanding HTML contexts, attribute i
 
 ## Lab Reference
 
-[PortSwigger – Reflected XSS in Canonical Link Tag](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-canonical-link-tag)
+https://portswigger.net/web-security/cross-site-scripting/contexts/lab-canonical-link-tag
