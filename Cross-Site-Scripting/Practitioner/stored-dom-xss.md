@@ -4,7 +4,7 @@
 **Difficulty:** Practitioner  
 **Category:** Stored DOM-Based Cross-Site Scripting (XSS)  
 **Status:** Solved  
-**Tools:** Web Browser, Browser Developer Tools
+**Tools:** Firefox
 
 ## Objective
 
@@ -58,10 +58,17 @@ An attacker could potentially:
 
 ## Evidence
 
-- [ ] Screenshot of the submitted comment containing the payload.
-- [ ] Screenshot showing the injected HTML element in the DOM.
-- [ ] Screenshot of the successful JavaScript alert.
+
+<img width="1013" height="620" alt="Screenshot 2026-11-12 073233" src="https://github.com/user-attachments/assets/8b14188d-a1fc-4d8d-9f33-f49425e0adf5" />
+<img width="437" height="187" alt="image" src="https://github.com/user-attachments/assets/9024c0dd-72a9-491c-8b23-59b4251c9b3b" />
+
+<img width="1116" height="652" alt="image" src="https://github.com/user-attachments/assets/1b3205e0-d1be-475a-85f4-e0e3e15ecff7" />
+<img width="1547" height="237" alt="image" src="https://github.com/user-attachments/assets/d053968d-489f-43f7-abf7-2a2f01d68f1f" />
+
+
+
+
 
 ## Lab Reference
 
-PortSwigger Web Security Academy – Stored DOM XSS.
+[PortSwigger Web Security Academy – Stored DOM XSS.](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-stored)
