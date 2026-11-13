@@ -4,7 +4,7 @@
 **Difficulty:** Practitioner  
 **Category:** Cross-Site Scripting (XSS)  
 **Status:** Solved  
-**Tool:** Burp Suite Community Edition
+**Tool:** Firefox
 
 ## Objective
 
@@ -53,9 +53,11 @@ Depending on the application's functionality and security controls, this could l
 
 ## Evidence
 
-- [ ] Screenshot of the reflected input inside the template literal.
-- [ ] Screenshot of the successful JavaScript alert.
+<img width="1391" height="995" alt="image" src="https://github.com/user-attachments/assets/74821bc1-37d3-4d5f-b4bb-ac39b7eb2434" />
+<img width="1595" height="250" alt="image" src="https://github.com/user-attachments/assets/532e6c00-cee9-4888-8bd8-fca461bd3353" />
+
+
 
 ## Lab Reference
 
-[PortSwigger – Reflected XSS into a template literal](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-template-literal-angle-brackets-single-double-quotes-backslash-backticks-escaped)
+https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-template-literal-angle-brackets-single-double-quotes-backslash-backticks-escaped
