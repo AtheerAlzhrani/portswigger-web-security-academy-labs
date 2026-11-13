@@ -7,7 +7,7 @@
 - **Category:** Cross-Site Scripting (XSS)
 - **Status:** Solved
 - **Vulnerability Type:** Stored Cross-Site Scripting
-- **Tools:** Burp Suite, Burp Repeater, Browser
+- **Tools:** Burp Suite, Firefox
 
 ## Objective
 
@@ -107,12 +107,10 @@ Potential consequences include:
 - Implement a restrictive Content Security Policy (CSP) as an additional security layer.
 
 ## Evidence
+<img width="1280" height="882" alt="image" src="https://github.com/user-attachments/assets/07e5bb2f-99ac-4e96-ad1a-db9b69631321" />
 
-- [ ] Screenshot of the submitted comment and Website payload.
-- [ ] Screenshot showing the reflected value inside the `onclick` attribute.
-- [ ] Screenshot of the clicked comment author name.
-- [ ] Screenshot of successful JavaScript execution.
-- [ ] Screenshot of the solved lab confirmation.
+<img width="1577" height="267" alt="Screenshot 2026-11-13 122045" src="https://github.com/user-attachments/assets/a922e37a-d6d7-42db-881d-6cece1e956ea" />
+
 
 ## Key Learning
 
@@ -124,5 +122,5 @@ This lab demonstrates the importance of understanding browser parsing order and 
 
 ## Lab Reference
 
-[PortSwigger – Stored XSS into onclick event](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-onclick-event-angle-brackets-double-quotes-html-encoded-single-quotes-backslash-escaped)
+https://portswigger.net/web-security/cross-site-scripting/contexts/lab-onclick-event-angle-brackets-double-quotes-html-encoded-single-quotes-backslash-escaped
 
