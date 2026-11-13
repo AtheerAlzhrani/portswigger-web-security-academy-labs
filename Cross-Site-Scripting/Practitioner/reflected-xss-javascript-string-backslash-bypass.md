@@ -7,7 +7,7 @@
 - **Category:** Cross-Site Scripting (XSS)
 - **Status:** Solved
 - **Vulnerability Type:** Reflected Cross-Site Scripting
-- **Tools:** Burp Suite, Burp Repeater, Browser
+- **Tools:** Burp Suite, Firefox
 
 ## Objective
 
@@ -112,12 +112,10 @@ Potential consequences include:
 
 ## Evidence
 
-- [ ] Screenshot showing the reflected search term.
-- [ ] Screenshot demonstrating that single quotes are escaped.
-- [ ] Screenshot demonstrating that backslashes are not escaped.
-- [ ] Screenshot of the final successful payload.
-- [ ] Screenshot of the JavaScript alert.
-- [ ] Screenshot of the solved lab confirmation.
+<img width="1292" height="932" alt="image" src="https://github.com/user-attachments/assets/b2defd43-5093-4720-9eae-757be48c510d" />
+<img width="1632" height="267" alt="image" src="https://github.com/user-attachments/assets/80d54aaa-3af1-4fac-816a-322ec071a3f9" />
+
+
 
 ## Key Learning
 
