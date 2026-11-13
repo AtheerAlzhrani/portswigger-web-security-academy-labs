@@ -7,7 +7,7 @@
 - **Category:** Cross-Site Scripting (XSS)
 - **Status:** Solved
 - **Vulnerability Type:** Reflected Cross-Site Scripting
-- **Tools:** Burp Suite, Burp Repeater, Browser
+- **Tools:** Burp Suite, Firefox
 
 ## Objective
 
@@ -97,11 +97,11 @@ Potential consequences include:
 
 ## Evidence
 
-- [ ] Screenshot showing the reflected search term inside the JavaScript string.
-- [ ] Screenshot showing the escaped single quote.
-- [ ] Screenshot of the final payload.
-- [ ] Screenshot of successful JavaScript execution.
-- [ ] Screenshot of the solved lab confirmation.
+<img width="1247" height="962" alt="image" src="https://github.com/user-attachments/assets/ab15b542-1090-4b98-a109-b4dcd7c9a54a" />
+<img width="1580" height="287" alt="image" src="https://github.com/user-attachments/assets/ce20e5ac-813c-4179-9e38-f9b35a6a63e2" />
+
+
+
 
 ## Key Learning
 
@@ -111,4 +111,4 @@ When user input is embedded inside an HTML `<script>` element, the HTML parsing 
 
 ## Lab Reference
 
-[PortSwigger – Reflected XSS into a JavaScript string with single quote and backslash escaped](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-string-single-quote-backslash-escaped)
+https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-string-single-quote-backslash-escaped
