@@ -4,7 +4,7 @@
 **Difficulty:** Expert  
 **Category:** Cross-Site Scripting (XSS) – Content Security Policy (CSP) Bypass  
 **Status:** Solved  
-**Tools:** Burp Suite, Chrome, Browser Developer Tools
+**Tools:** Burp Suite ,Firefox
 
 ## Objective
 
@@ -120,11 +120,13 @@ Potential consequences include:
 
 ## Evidence
 
-- [ ] Screenshot showing the reflected XSS payload.
-- [ ] Screenshot of the original CSP blocking JavaScript execution.
-- [ ] Burp Suite screenshot showing the CSP response header.
-- [ ] Screenshot showing the modified CSP directive.
-- [ ] Screenshot of successful JavaScript execution in Chrome.
+<img width="1487" height="447" alt="image" src="https://github.com/user-attachments/assets/b09b0e2a-b013-47ea-b4b7-034a28ecdf54" />
+
+<img width="1612" height="676" alt="image" src="https://github.com/user-attachments/assets/1a3725c0-bf1a-4930-8c68-cdf23903ace9" />
+<img width="1581" height="280" alt="image" src="https://github.com/user-attachments/assets/ecf10fc2-3b61-44a7-9d83-0d4cb277a76f" />
+
+
+
 
 ## Lab Reference
 
