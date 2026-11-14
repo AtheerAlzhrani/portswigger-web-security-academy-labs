@@ -129,5 +129,4 @@ Potential consequences include:
 
 
 ## Lab Reference
-
-[PortSwigger – Reflected XSS protected by CSP, with CSP bypass](https://portswigger.net/web-security/cross-site-scripting/content-security-policy/lab-csp-bypass)
+https://portswigger.net/web-security/cross-site-scripting/content-security-policy/lab-csp-bypass
