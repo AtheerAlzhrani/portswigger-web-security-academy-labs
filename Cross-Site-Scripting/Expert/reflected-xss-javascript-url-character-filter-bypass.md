@@ -4,7 +4,7 @@
 **Difficulty:** Expert  
 **Category:** Cross-Site Scripting (XSS) – JavaScript URL / Filter Bypass  
 **Status:** Solved  
-**Tools:** Firefox
+**Tool:** Firefox
 
 ## Objective
 
