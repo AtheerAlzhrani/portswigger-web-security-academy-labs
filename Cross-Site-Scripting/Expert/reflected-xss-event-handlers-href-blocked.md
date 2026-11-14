@@ -4,7 +4,7 @@
 **Difficulty:** Expert  
 **Category:** Cross-Site Scripting (XSS) – Filter Bypass / SVG  
 **Status:** Solved  
-**Tools:** Browser, Burp Suite
+**Tool:** Firefox
 
 ## Objective
 
@@ -98,11 +98,10 @@ Potential consequences include:
 - Implement a restrictive Content Security Policy as an additional defense.
 
 ## Evidence
+<img width="692" height="181" alt="image" src="https://github.com/user-attachments/assets/dd33d7c7-8485-4f62-bf99-ace52e45e0f7" />
 
-- [ ] Screenshot showing the injected SVG vector.
-- [ ] Screenshot showing the clickable "Click me" text.
-- [ ] Screenshot showing successful JavaScript execution.
+<img width="1640" height="777" alt="image" src="https://github.com/user-attachments/assets/c9723ea6-fdc2-46f9-bf83-2be86ace820a" />
+
 
 ## Lab Reference
-
-[PortSwigger – Reflected XSS with event handlers and href attributes blocked](https://portswigger.net/web-security/cross-site-scripting)
+https://portswigger.net/web-security/cross-site-scripting/contexts/lab-event-handlers-and-href-attributes-blocked
