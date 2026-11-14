@@ -4,7 +4,7 @@
 **Difficulty:** Expert  
 **Category:** Cross-Site Scripting (XSS) – AngularJS Sandbox Escape / CSP Bypass  
 **Status:** Solved  
-**Tools:** Burp Suite, Browser, PortSwigger Exploit Server
+**Tools:** Firefox, PortSwigger Exploit Server
 
 ## Objective
 
@@ -104,10 +104,11 @@ Potential consequences include:
 - Migrate from AngularJS to a supported framework.
 
 ## Evidence
+<img width="1717" height="565" alt="image" src="https://github.com/user-attachments/assets/334cf5ca-7db0-4532-909a-3da817032d06" />
 
-- [ ] Screenshot of the Exploit Server payload.
-- [ ] Screenshot showing the exploit delivery.
-- [ ] Screenshot of the successful `document.cookie` alert.
+<img width="1532" height="496" alt="image" src="https://github.com/user-attachments/assets/5199d327-ad79-4db4-b48b-713b811bc075" />
+
+
 
 ## Lab Reference
 
