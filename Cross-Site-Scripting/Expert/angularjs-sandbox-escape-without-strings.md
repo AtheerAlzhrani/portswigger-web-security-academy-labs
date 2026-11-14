@@ -4,7 +4,7 @@
 **Difficulty:** Expert  
 **Category:** Cross-Site Scripting (XSS) – AngularJS Sandbox Escape  
 **Status:** Solved  
-**Tools:** Browser, Burp Suite
+**Tools:** Firefox
 
 ## Objective
 
@@ -107,11 +107,9 @@ Potential consequences include:
 - Implement a restrictive Content Security Policy as an additional defense.
 
 ## Evidence
+<img width="1532" height="496" alt="image" src="https://github.com/user-attachments/assets/f499746a-5a7c-4386-ba0c-e9bd1ee3f7c0" />
 
-- [ ] Screenshot of the crafted URL.
-- [ ] Screenshot showing successful JavaScript execution.
-- [ ] Screenshot of the vulnerable search functionality.
+
 
 ## Lab Reference
-
-[PortSwigger – AngularJS sandbox escape without strings](https://portswigger.net/web-security/cross-site-scripting/contexts/client-side-template-injection/lab-angular-sandbox-escape-without-strings)
+https://portswigger.net/web-security/cross-site-scripting/contexts/client-side-template-injection/lab-angular-sandbox-escape-without-strings
