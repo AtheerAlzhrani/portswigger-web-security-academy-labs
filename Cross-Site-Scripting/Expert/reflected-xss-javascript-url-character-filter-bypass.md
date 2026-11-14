@@ -4,7 +4,7 @@
 **Difficulty:** Expert  
 **Category:** Cross-Site Scripting (XSS) – JavaScript URL / Filter Bypass  
 **Status:** Solved  
-**Tools:** Browser, Burp Suite
+**Tools:** Firefox
 
 ## Objective
 
@@ -95,11 +95,9 @@ Potential consequences include:
 - Use safe DOM APIs and a restrictive Content Security Policy as additional defenses.
 
 ## Evidence
+<img width="1557" height="332" alt="image" src="https://github.com/user-attachments/assets/845265af-9b58-43f4-8609-3cdf22d5ba7a" />
 
-- [ ] Screenshot of the crafted URL.
-- [ ] Screenshot showing the successful alert containing `1337`.
-- [ ] Burp Suite evidence showing the reflected input.
 
 ## Lab Reference
 
-PortSwigger Web Security Academy – Reflected XSS in a JavaScript URL with some characters blocked.
+https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-url-some-characters-blocked
