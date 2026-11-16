@@ -84,7 +84,7 @@ Depending on the application's functionality and the victim's privileges, this c
 <img width="1637" height="322" alt="image" src="https://github.com/user-attachments/assets/7c029e39-0af1-4ac4-bd6e-8e6655004fe1" />
 
 
-## References
+## Reference
 
-- [PortSwigger: DOM XSS Using Web Messages](https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages)
-- [MDN: Window.postMessage()](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
+ [PortSwigger: DOM XSS Using Web Messages](https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages)
+
