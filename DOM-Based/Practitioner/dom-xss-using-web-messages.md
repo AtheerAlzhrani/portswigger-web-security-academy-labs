@@ -4,7 +4,7 @@
 **Difficulty:** Practitioner  
 **Category:** DOM-Based Vulnerabilities  
 **Status:** Solved  
-**Tool:** Firefox, PortSwigger Exploit Server
+**Tools:** Firefox, PortSwigger Exploit Server
 
 ## Objective
 
