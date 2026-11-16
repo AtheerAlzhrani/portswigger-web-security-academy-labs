@@ -93,13 +93,10 @@ Potential consequences include:
 
 ## Evidence
 
-- [ ] Screenshot of the vulnerable message event listener.
-- [ ] Screenshot showing the weak `indexOf()` validation.
-- [ ] Screenshot of the exploit server payload.
-- [ ] Screenshot of successful lab completion.
+<img width="1562" height="325" alt="image" src="https://github.com/user-attachments/assets/7cc1eb03-cce0-477b-86f5-01a735e06d61" />
 
-## References
+
+## Reference
 
 - [PortSwigger: DOM XSS Using Web Messages and a JavaScript URL](https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages-and-a-javascript-url)
-- [MDN: Window.postMessage()](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
-- [MDN: Location.href](https://developer.mozilla.org/en-US/docs/Web/API/Location/href)
+
