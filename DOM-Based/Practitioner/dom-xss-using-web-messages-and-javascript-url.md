@@ -4,7 +4,7 @@
 **Difficulty:** Practitioner  
 **Category:** DOM-Based Vulnerabilities  
 **Status:** Solved  
-**Tools:** Burp Suite, Browser DevTools, PortSwigger Exploit Server
+**Tools:** Firefox, PortSwigger Exploit Server
 
 ## Objective
 
