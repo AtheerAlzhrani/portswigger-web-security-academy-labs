@@ -1,31 +1,41 @@
-# DOM XSS Using Web Messages and JSON.parse
+# Lab: DOM XSS Using Web Messages and `JSON.parse`
 
-| Field | Details |
-|---|---|
-| Platform | PortSwigger Web Security Academy |
-| Difficulty | Practitioner |
-| Category | DOM-Based XSS |
-| Status | Solved |
-| Vulnerability | DOM-based Cross-Site Scripting |
-| Tools | Burp Suite, Browser DevTools, Exploit Server |
+**Platform:** PortSwigger Web Security Academy  
+**Difficulty:** Practitioner  
+**Category:** DOM-Based Vulnerabilities  
+**Status:** Solved  
+**Tools:** Firefox, PortSwigger Exploit Server
 
 ## Objective
 
-Exploit a DOM-based XSS vulnerability caused by insecure handling of web messages and JSON parsing to execute JavaScript and trigger the `print()` function.
+Exploit a DOM-based Cross-Site Scripting (DOM XSS) vulnerability by sending a crafted JSON web message to the target application, causing the browser to execute the JavaScript `print()` function.
+
+## Vulnerability Overview
+
+The application contains a JavaScript event listener that listens for incoming messages using `window.addEventListener('message', ...)`.
+
+The received message is parsed using `JSON.parse()` and processed through a `switch` statement based on its `type` property.
+
+The `load-channel` case assigns the message's `url` property to the `src` attribute of an iframe.
+
+Because the application does not properly validate the supplied URL, an attacker can provide a malicious JavaScript URL through a crafted web message.
+
+This allows JavaScript execution in the context of the target application.
 
 ## Methodology
 
-1. Inspected the application's JavaScript and identified an event listener handling incoming web messages.
-2. Observed that incoming messages were processed using `JSON.parse()`.
-3. Identified a `switch` statement that checks the message's `type` property.
-4. Found that the `load-channel` case assigns the message's `url` property to an iframe's `src` attribute.
-5. Determined that the URL was not properly validated before being assigned.
+1. Inspected the application's homepage using browser DevTools.
+2. Identified a JavaScript `addEventListener()` function listening for incoming web messages.
+3. Observed that incoming messages are processed using `JSON.parse()`.
+4. Identified the `load-channel` case in the `switch` statement.
+5. Discovered that the application assigns the message's `url` property to an iframe's `src` attribute.
+6. Opened the PortSwigger Exploit Server.
+7. Created an iframe pointing to the vulnerable target application.
+8. Used the iframe's `onload` event to send a crafted JSON message using `postMessage()`.
+9. Stored the exploit and delivered it to the victim.
+10. Successfully triggered the `print()` function.
 
-## Exploitation
-
-Created an HTML payload on the exploit server containing an iframe that sends a crafted web message when loaded.
-
-**Payload:**
+## Payload
 
 ```html
 <iframe src="https://YOUR-LAB-ID.web-security-academy.net/"
@@ -35,39 +45,55 @@ onload='this.contentWindow.postMessage(
 </iframe>
 ```
 
-**Execution steps:**
+## Technical Explanation
 
-1. Replaced `YOUR-LAB-ID` with the target lab ID.
-2. Added the payload to the exploit server's HTML body.
-3. Stored the exploit.
-4. Delivered the exploit to the victim.
-5. The message was received, parsed using `JSON.parse()`, and processed by the event listener.
-6. The application assigned the JavaScript URL to the iframe's `src` attribute, triggering `print()`.
+The exploit works through the following sequence:
 
-## Vulnerability Analysis
+1. The iframe loads the vulnerable application.
+2. The `onload` event executes after the iframe finishes loading.
+3. `postMessage()` sends a crafted JSON message to the target window.
+4. The target application's message event listener receives the message.
+5. `JSON.parse()` converts the message string into a JavaScript object.
+6. The `switch` statement processes the `load-channel` message type.
+7. The application assigns the supplied `url` value to the iframe's `src` attribute.
+8. The browser executes the injected JavaScript URL, triggering `print()`.
 
-The application trusted incoming web messages without properly validating their origin or the supplied URL.
+### Key JavaScript Concepts
 
-The `load-channel` handler allowed an attacker to control an iframe's `src` attribute through a crafted JSON message.
+- `window.addEventListener('message', ...)`: Receives messages from other windows.
+- `postMessage()`: Allows communication between different browsing contexts.
+- `event.data`: Contains the received message data.
+- `JSON.parse()`: Converts a JSON string into a JavaScript object.
+- `switch`: Executes logic based on the message's `type` property.
+- `iframe.src`: Sets the URL loaded inside an iframe.
+- `javascript:` URL: Executes JavaScript when assigned to a supported navigation context.
 
-This resulted in JavaScript execution in the application's context.
+## Security Impact
 
-## Impact
+An attacker may exploit insecure web message handling to execute JavaScript in the context of the vulnerable application.
 
-- DOM-based Cross-Site Scripting (XSS).
-- Execution of attacker-controlled JavaScript.
-- Potential access to sensitive application data within the affected origin.
-- Possible manipulation of application functionality.
+Depending on the application's functionality and the victim's privileges, this could potentially lead to:
+
+- Unauthorized actions performed through the victim's authenticated session.
+- Manipulation of application content.
+- Access to sensitive information exposed to JavaScript.
+- Execution of attacker-controlled scripts.
 
 ## Remediation
 
-- Validate the origin of incoming messages using `event.origin`.
-- Validate the structure and expected values of incoming messages.
-- Restrict iframe URLs to trusted destinations.
-- Avoid assigning untrusted input to sensitive DOM properties.
-- Avoid using `javascript:` URLs.
+1. Validate incoming messages before processing them.
+2. Verify the sender's origin using `event.origin`.
+3. Validate message properties and expected data types.
+4. Restrict iframe URLs to trusted destinations.
+5. Reject dangerous URL schemes such as `javascript:`.
+6. Avoid assigning untrusted input to sensitive DOM properties.
+7. Implement a strict Content Security Policy (CSP) as an additional security layer.
 
 ## Evidence
 
-- <img width="1622" height="262" alt="image" src="https://github.com/user-attachments/assets/89bdc543-0a1a-4adf-9aaf-148fc65e16fa" />
+<img width="1622" height="579" alt="image" src="https://github.com/user-attachments/assets/1e19bf54-f9d4-455a-8354-1091924cb210" />
 
+
+## Reference
+
+https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages-and-json-parse
