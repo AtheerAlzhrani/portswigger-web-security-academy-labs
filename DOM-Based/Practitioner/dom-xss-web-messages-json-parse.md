@@ -90,7 +90,6 @@ Depending on the application's functionality and the victim's privileges, this c
 7. Implement a strict Content Security Policy (CSP) as an additional security layer.
 
 ## Evidence
-
 <img width="1622" height="579" alt="image" src="https://github.com/user-attachments/assets/1e19bf54-f9d4-455a-8354-1091924cb210" />
 
 
