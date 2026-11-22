@@ -4,7 +4,7 @@
 **Difficulty:** Expert  
 **Category:** DOM-Based Vulnerabilities (DOM Clobbering)  
 **Status:** Solved  
-**Tools:** Chrome, PortSwigger Exploit Server
+**Tools:** Firefox, PortSwigger Exploit Server
 
 ## Objective
 
