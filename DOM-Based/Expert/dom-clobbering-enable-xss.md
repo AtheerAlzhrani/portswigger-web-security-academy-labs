@@ -4,7 +4,7 @@
 **Difficulty:** Expert  
 **Category:** DOM-Based Vulnerabilities (DOM Clobbering)  
 **Status:** Solved  
-**Tools:** Chrome, PortSwigger Web Security Academy
+**Tools:** Firefox, PortSwigger Web Security Academy
 
 ## Objective
 
